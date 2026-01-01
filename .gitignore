@@ -7,3 +7,4 @@ mlruns/
 .ipynb_checkpoints/
 *.pyc
 *.csv
+saved_figures/
