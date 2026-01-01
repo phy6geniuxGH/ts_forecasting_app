@@ -1,0 +1,9 @@
+
+__pycache__
+mlruns/
+.env/
+.vscode/
+.DS_Store
+.ipynb_checkpoints/
+*.pyc
+*.csv
