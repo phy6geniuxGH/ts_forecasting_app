@@ -48,7 +48,7 @@ def ts_plotter(
             plt.ylabel(y_label)
             plt.legend()
             plt.grid(True)
-            plt.savefig(f"{set_path}time_series_plot_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
+            #plt.savefig(f"{set_path}time_series_plot_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
             plt.show()
     except Exception as e:
         print(f"Error plotting data: {e}")
