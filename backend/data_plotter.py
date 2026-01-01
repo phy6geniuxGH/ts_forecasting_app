@@ -46,6 +46,7 @@ def ts_plotter(
             plt.title(title)
             plt.xlabel(x_label)
             plt.ylabel(y_label)
+            plt.legend()
             plt.grid(True)
             plt.savefig(f"{set_path}time_series_plot_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}.png")
             plt.show()
