@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 API_URL = "http://backend:8000"  # Docker service name
 
 st.set_page_config(page_title="Forecaster", layout="wide")
-st.title("📈 Time Series Forecasting App")
+st.title("Time Series Forecasting App")
 
 # Sidebar
 st.sidebar.header("Controls")
