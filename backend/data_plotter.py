@@ -25,7 +25,7 @@ def ts_plotter(
     - plot_method (str): Method to use for plotting ('matplotlib', 'seaborn', or 'plotly').
 
     Returns:
-    - None
+    - None 
     """
     # Validate input data
     if 'ds' not in data.columns or 'y' not in data.columns:
